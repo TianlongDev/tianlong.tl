@@ -35,7 +35,7 @@ canvas {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 200px;
+  width: 100%;
   height: 100px;
   font-size: 100px;
   text-align: center;
@@ -43,15 +43,13 @@ canvas {
 
 .dragon-container {
   width: 100%;
-  text-shadow: 4px 6px 5px rgba(0, 0, 0, 0.3);
-  animation: myanim 2s infinite;
   float: left;
   padding-top: 3px;
+  animation: myanim 2s infinite;
 }
 
 @keyframes myanim {
-  30% {
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  30% {   
     padding-top: 0px;
   }
 }
@@ -71,7 +69,7 @@ canvas {
   cursor: pointer;
   font-weight: 400;
   position: relative;
-  bottom: -10px
+  bottom: -10px;
 }
 
 .the-button:hover {
