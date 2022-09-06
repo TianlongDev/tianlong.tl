@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   function init() {
 
     //Reference to the HTML element
-    canvas = document.getElementById("game");
+    canvas = document.getElementById("fire");
 
     resizeCanvas();
 
