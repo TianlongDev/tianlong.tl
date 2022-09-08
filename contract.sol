@@ -25,7 +25,7 @@
 
 symbol: 𝚕𝚘𝚗𝚐
 
-tainlong.tl
+tianlong.tl
 
 no socials.
 no utility.
