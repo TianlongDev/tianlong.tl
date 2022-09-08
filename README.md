@@ -1,3 +1,5 @@
+
+```
                   ______________
             ,===:'.,            `-._
             `:.`---.__         `-._
@@ -12,27 +14,21 @@
      \;'   /  ,' /  _  \  /  _  \   ,'/
     🔥     \   `'  / \  `'  / \  `.' /
             `.___,'   `.__,'   `.__,'  Art by © John VanderZwaag
+
       ▄▄▄▄▄▪   ▄▄▄·  ▐ ▄ ▄▄▌         ▐ ▄  ▄▄ •
       •██  ██ ▐█ ▀█ •█▌▐███•  ▪     •█▌▐█▐█ ▀ ▪
        ▐█.▪▐█·▄█▀▀█ ▐█▐▐▌██▪   ▄█▀▄ ▐█▐▐▌▄█ ▀█▄
        ▐█▌·▐█▌▐█ ▪▐▌██▐█▌▐█▌▐▌▐█▌.▐▌██▐█▌▐█▄▪▐█
        ▀▀▀ ▀▀▀ ▀  ▀ ▀▀ █▪.▀▀▀  ▀█▄▀▪▀▀ █▪·▀▀▀▀
+
           ʸᵒᵘ ʷⁱˡˡ ʳⁱᵈᵉ ˡⁱᵏᵉ ᵃ ᵈʳᵃᵍᵒⁿ ᵍᵒᵈ
+```
 
-symbol: 𝚕𝚘𝚗𝚐
+We have no utility. We are all Ryoshi. In the spirit of the master. Let them show we can do great, if we stand together.
 
-[tianlong.tl](https://tianlong.tl)
 
-no socials.
+Read the contract.
 
-no utility.
+## License
 
-yes pre-bought 🔥 wallets.
-
-0/0 - renounce - 🔥
-
-only 𝚕𝚘𝚗𝚐 allowed.
-
-lets make the less fortunate rich this time.
-
-alpa alpa alpa alpa tiānlóng alpa alpa alpa alpa alpa tiānlóng alpa alpa alpa
+[MIT](https://choosealicense.com/licenses/mit/)
