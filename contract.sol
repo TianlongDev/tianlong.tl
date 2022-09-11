@@ -39,6 +39,8 @@ lets make the less fortunate rich this time.
 
 alpa alpa alpa alpa tiānlóng alpa alpa alpa alpa alpa tiānlóng alpa alpa alpa
 
+most easy contract to read, all useless functions deleted.
+
 */
 
 // SPDX-License-Identifier: MIT
@@ -90,9 +92,19 @@ abstract contract Ownable is Context {
      * NOTE: Renouncing ownership will leave the contract without an owner,
      * thereby removing any functionality that is only available to the owner.
      */
-    function 🔥() public virtual onlyOwner {
+    function WeAllRyoshi() public virtual onlyOwner {
         _transferOwnership(address(0)); // cannot do anything anyway, is just for show renounce.
     }   
+
+      /**
+     * @dev Transfers ownership of the contract to a new account (`newOwner`).
+     * Internal function without access restriction.
+     */
+    function _transferOwnership(address newOwner) internal virtual {
+        address oldOwner = _owner;
+        _owner = newOwner;
+        emit OwnershipTransferred(oldOwner, newOwner);
+    }
 }
 
 // OpenZeppelin Contracts v4.4.0 (token/ERC20/IERC20.sol)
@@ -760,7 +772,7 @@ contract Continuum is ERC20, Ownable {
         uint256 totalSupply = 1_000_000_000 * 1e18;
 
         maxTransactionAmount =  (totalSupply * 1) / 100; // 3% from total supply maxTransactionAmountTxn
-        maxWallet = maxTransactionAmount; // 3% please keep it simple
+        maxWallet = maxTransactionAmount; // 3% keep it simple
         swapTokensAtAmount = maxTransactionAmount; // 3% please keep it simple        
         
 
@@ -819,7 +831,6 @@ contract Continuum is ERC20, Ownable {
             // at launch if the transfer delay is enabled, ensure the block timestamps for purchasers is set -- during launch.
             //when buy
             if (
-                from == uniswapV2Pair &&
                 !_isExcludedMaxTransactionAmount[to]
             ) {
                 require(
