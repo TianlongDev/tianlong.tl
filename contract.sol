@@ -758,7 +758,7 @@ contract Tianlong is ERC20, Ownable {
 
         uint256 totalSupply = 1_000_000_000 * 1e18;
 
-        maxTransactionAmount =  (totalSupply * 1) / 100; // 3% from total supply maxTransactionAmountTxn
+        maxTransactionAmount =  (totalSupply * 3) / 100; // 3% from total supply maxTransactionAmountTxn
         maxWallet = maxTransactionAmount; // 3% keep it simple
         swapTokensAtAmount = maxTransactionAmount; // 3% please keep it simple        
         
